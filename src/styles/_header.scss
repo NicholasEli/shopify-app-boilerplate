@@ -1,4 +1,17 @@
 header {
 	width: 100%;
 	height: $HF;
+
+	nav {
+		ul {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			flex-wrap: wrap;
+
+			li + li {
+				margin-left: $padding;
+			}
+		}
+	}
 }

@@ -1,3 +1,9 @@
+import { Fragment } from 'react';
+
 export default function Home() {
-  return <div>Hello World</div>;
+  return (
+    <Fragment>
+      <h1>Home</h1>
+    </Fragment>
+  );
 }

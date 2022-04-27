@@ -1,3 +1,9 @@
+import { Fragment } from 'react';
+
 export default function Products() {
-  return <div>Products</div>;
+  return (
+    <Fragment>
+      <h1>Products</h1>
+    </Fragment>
+  );
 }
