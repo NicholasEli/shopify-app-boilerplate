@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "shopify hydrogen dev",
     "build": "shopify hydrogen build",
-    "preview": "shopify hydrogen preview"
+    "preview": "shopify hydrogen preview",
+    "styles": "sass --watch ./src/styles/_style.scss ./src/styles/style.css"
   },
   "devDependencies": {
     "@shopify/cli": "1.0.9",
@@ -17,7 +18,7 @@
   },
   "dependencies": {
     "@shopify/hydrogen": "^0.16.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "0.0.0-experimental-2bf7c02f0-20220314",
+    "react-dom": "0.0.0-experimental-2bf7c02f0-20220314"
   }
 }
